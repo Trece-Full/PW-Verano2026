@@ -1,6 +1,6 @@
 <img src="https://avatars.githubusercontent.com/u/224884901?s=400&u=aecd6c9c50b3ab45ac05103a40467f8478da45d7&v=4" width="150" alt="Foto de perfil de Yair Nava" />
 
-# 👋 Hola, soy Yair Nava
+# 👋 Hola, soy Ronaldo Ramirez Rojas
 
 ## 🎓 Información general
 - 📚 Carrera: Ingeniería en Sistemas Computacionales
