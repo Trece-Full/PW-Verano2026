@@ -1,39 +1,51 @@
-body{
+body,html{
 
     padding: 0%;
     margin: 0%;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
 }
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #divHeader{
     margin: auto;
+    
     display: flex;
-    background: red;
+    justify-content: flex-end;
+    align-items: center;
 
+    padding: 15px;
     height: 10%;
-    text-align: right;
+    gap: 10px;
 
 }
 
 #divMain{
-
-    background: yellowgreen;
-    margin: auto;
-
-    width: 100%;
     height: 80%;
 
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-#divFooter{
+    gap: 30px;
+}   
+
+footer{
 
     background: yellow;
+    height: 10%;
+    background: rgb(220, 220, 220);
+    padding: 10px;
 }
 
 #divAcceder{
-
-    background: yellow;
     margin: 1%;
     padding: 0.5%;
     border-radius: 15px;
@@ -43,27 +55,92 @@ body{
 
 }
 
-a{
-
-    padding-left: 15px;
-    margin: 10px;
-}
-
 input{
 
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 12px;
     padding-left: 20PX;
     padding-right: 20PX;
     font-size: 15px;
     background: white;
     border: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 #inputAcceder{
 
     background: #0866ff;
     color: white;
+    margin-right: 10px;
+}
+
+.btnSecundarios{
+
+    background: rgb(240, 240, 240);
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.btnBusqueda{
+
+    width: 60%;
+    height: 10%;
+    border-radius: 30px;
+    text-align: left;
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    border:1px solid #dfe1e5;
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+    
+}
+
+.divSecundarios{
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.divGoogle{
+
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.h1Google{
+
+    font-size: 95px;
+}
+
+.divIzquierda{
+
+    display: flex;
+}
+
+.divDerecha{
+
+    display: flex;
+}
+
+.divFooterSup{
+
+    padding:15px 30px;
+
+    border-bottom:1px solid #dadce0;
+}
+
+.divFooterInferior{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divIzquierda,
+.divDerecha{
+    display:flex;
+    gap:25px;
 }
