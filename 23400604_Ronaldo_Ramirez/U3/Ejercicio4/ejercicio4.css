@@ -1,0 +1,77 @@
+body{
+
+    font-family: Helvetica, Arial, sans-serif;
+    background: rgb(230, 230, 230);
+}
+
+#divPrincipal{
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#divIzquierda{
+    
+    margin: 150px;
+   
+    
+}
+
+#divDerecha{
+    margin: 150px;
+    background: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center; 
+
+}
+
+
+h1{
+
+    color: #0866ff;
+    font-size: 50px;
+}
+
+#pPrincipal{
+
+    font-size: 20px;
+    height: 200px;
+    width: 400px;
+    color: rgb(21, 20, 19);
+}
+
+input{
+
+    width: 95%;
+    height: 15%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+a{
+    color: #0866ff;
+    
+}
+
+#inputAzul{
+
+    background: #0866ff;
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#inputVerde{
+    background: #42b72a;
+    font-size: 15px;
+    width: 50%;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
