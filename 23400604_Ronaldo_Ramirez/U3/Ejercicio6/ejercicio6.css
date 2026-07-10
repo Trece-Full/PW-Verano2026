@@ -1,0 +1,175 @@
+body,html{
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+
+    padding: 5px;
+    color: rgb(169, 169, 169);
+    font-size: 13px;
+    text-decoration: none;  
+}
+
+a:hover{
+
+    text-decoration: underline;
+}
+
+p{
+    color: rgb(169, 169, 169);;
+}
+
+.divMain{
+    display: flex;
+   height: 95%;
+}
+
+hr{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 1px;
+    background-color: gray;
+    width: 150px;
+    
+}
+
+#o{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+span{
+
+    width: 250px;
+}
+
+.divFooter{
+
+    background: rgb(19, 17, 17);
+    height: 6%;
+    display: inline-block ;
+    text-align: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+.divIzquierda{
+    background: rgb(19, 17, 17);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divDerecha{
+    background: rgb(19, 17, 17);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divContenido{
+
+    background: rgb(19, 17, 17);
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 18px;
+
+    
+}
+
+.pGoogle{
+
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.pApple{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.divBtnGoogle{
+
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.divBtnApple{
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.divBtnCrear{
+    background: #1D9BF0;
+    border-radius: 20px;
+    padding: 10px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+.divBtnIniciar{
+
+    border-radius: 20px;
+    padding: 10px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: red;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+
+p{
+
+    color: white;
+}
+
+
+
+
