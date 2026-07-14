@@ -1,0 +1,177 @@
+body,html{
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.divHeader{
+    /* Sintaxis: color url("ruta") repetición posición / tamaño */
+    background: #333 url('img/main-hero-background.png') no-repeat center / cover; width: 100% ; height: 70%;
+    
+    
+}
+
+.divBtnInicio{
+
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.btnInicio{
+    background: rgb(21, 20, 19);
+    color: white;
+    padding: 12px 20PX;
+    margin: 20px;
+    border-radius: 7px;
+    border: 1px white solid;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+
+.divContenido{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    padding: 40px 20px;
+    gap: 15px;
+}
+
+.divBotones{
+
+    display: flex;
+   
+}
+
+.botones{
+
+    border: 0;
+}
+
+.divContenidoStarWar{
+
+    background: rgb(21, 20, 19);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.divStarWar{
+
+
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.divImg{
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    background: #333 url('img/starwars.png') no-repeat center / cover; width: 100% ; height: 100%;
+}
+
+.divFila{
+
+    background: rgb(21, 20, 19);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divPeliculas{
+
+    display: flex;
+    gap: 10px;
+}
+
+.divImgF{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.pPeliculas{
+
+    color: white;
+
+}
+
+.divContTabla{
+
+    background: rgb(21, 20, 19);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divTabla{
+
+    color:white;
+    width: 1000px;
+    
+    
+}
+
+th,td{
+
+    color: white;
+    margin: 20px;
+    height: 60px;
+    
+}
+
+table{
+
+    
+}
+
+.div6{
+
+    background: red;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divDeportes{
+
+    background: yellow;
+    height: 100px;
+}
+
+.div7{
+
+    background: green;
+    height: 400px;
+}
+
+
+
+

@@ -11,6 +11,66 @@ body,html{
     padding: 0;
 }
 
+@media (max-width:768px){
+
+    .divMain{
+
+        flex-direction: column;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .divIzquierda,
+    .divDerecha{
+
+        width:100%;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .divContenido{
+        width:90%;
+    }
+
+}
+
+.logoX{
+    width:450px;
+}
+
+
+@media (max-width:768px){
+
+    .logoX{
+        width:180px;
+    }
+
+}
+
+.divMain{
+    height:95%;
+}
+
+.divFooter{
+    height:6%;
+}
+
+@media (max-width:768px){
+
+    .divContenido{
+
+        width:90%;
+
+    }
+
+}
+
 
 a{
 
