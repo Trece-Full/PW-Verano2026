@@ -28,3 +28,8 @@ let div = 10 / 5
 let resi = 10 % 3
 
 console.log("Suma: ",suma)
+console.log("Resta: ",resta)
+console.log("Mul: ",Mul)
+console.log("div: ",div)
+console.log("Residuo: ",resi)
+

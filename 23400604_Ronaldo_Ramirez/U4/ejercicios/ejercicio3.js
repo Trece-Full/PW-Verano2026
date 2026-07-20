@@ -1,7 +1,6 @@
 //ejercicio1
 
 /*
-potencia(2, 3)
 
 function potencia(base, exponente) {
 
@@ -70,6 +69,7 @@ function lanzarDados() {
 }
 
 lanzarDados()
+
 */
 
 /*
@@ -103,7 +103,7 @@ adivinarNumeros()
 /*
 Ejercicio 5
 let ventas = [];
-let cantidadVentas = parseInt(prompt("¿Cuántas ventas deseas registrar?"));
+let cantidadVentas = parseInt(prompt("¿Cuantas ventas deseas registrar?"));
 
 for (let i = 0; i < cantidadVentas; i++) {
 
@@ -117,7 +117,7 @@ for (let i = 0; i < cantidadVentas; i++) {
         producto: producto,
         cantidad: cantidad,
         precio: precio
-    };
+    };  
 
     ventas.push(venta);
 }
@@ -174,6 +174,22 @@ for (let producto in productos) {
 console.log("\nVendedor con más ventas:");
 console.log(mejorVendedor + " ($" + mayorVenta.toFixed(2) + ")");
 */
+
+ventas.reduce((total,venta) =>{
+
+    return total + (venta.cantidad * venta.precio)
+},0)
+
+let productos = []
+
+ventas.forEach(venta => {
+    if (productos[venta.producto]) {
+        productos[venta.producto] += venta.cantidad
+    }else{
+        productos[venta.producto] = venta.cantidad
+    }
+    
+});
 
 
 

@@ -94,10 +94,10 @@ function calcularComision() {
     let ventas;
 
     while (true) {
-        let entrada = prompt("Ingrese las ventas del empleado (entre $5,000 y $30,000):");
+        let entrada = prompt("Ingrese las ventas del empleado (entre $5,000 y $30,000): ");
         
         if (entrada === null) {
-            console.log("Operación cancelada.");
+            console.log("Operacion cancelada.");
             return;
         }
 
@@ -106,7 +106,7 @@ function calcularComision() {
         if (!isNaN(ventas) && ventas >= 5000 && ventas <= 30000) {
             break; 
         } else {
-            alert("Error: Debe ingresar un número válido entre 5,000 y 30,000.");
+            alert("Error: Debe ingresar un numero valido entre 5,000 y 30,000.");
         }
     }
     let comision;
@@ -119,7 +119,6 @@ function calcularComision() {
 
     console.log(`Ventas totales: $${ventas.toFixed(2)}`);
     console.log(`Comisión a recibir: $${comision.toFixed(2)}`);
-    alert(`La comisión a recibir es: $${comision.toFixed(2)}`);
 }
 calcularComision();
 
