@@ -101,6 +101,7 @@ adivinarNumeros()
 */
 
 /*
+
 Ejercicio 5
 let ventas = [];
 let cantidadVentas = parseInt(prompt("¿Cuantas ventas deseas registrar?"));
@@ -175,6 +176,14 @@ console.log("\nVendedor con más ventas:");
 console.log(mejorVendedor + " ($" + mayorVenta.toFixed(2) + ")");
 */
 
+
+
+
+
+
+
+
+
 ventas.reduce((total,venta) =>{
 
     return total + (venta.cantidad * venta.precio)
@@ -190,8 +199,6 @@ ventas.forEach(venta => {
     }
     
 });
-
-
 
 
 
