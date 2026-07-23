@@ -1,6 +1,6 @@
 const express = require(express);
 const app = express()
-const PORT = 3001
+const PORT = 3000
 
 
 app.listen(PORT, () => {
@@ -8,12 +8,10 @@ app.listen(PORT, () => {
 });
 
 
-//ejercicio 1 par o no par
 app.get("/par/:numero",(req,res) =>{
     const numero = req.params.numero
-    (numero % 2 == 0) ? res.send("Par") : "Es impar"
+    const par = (numero % 2 == 0) ? res.send("Par") : "Es impar"
 });
-
 
 
 
